@@ -27,8 +27,7 @@ _arguments.AddParameter(new InputArgumentWithInput("-c", "Connection string.", (
 ```
        private static void Main(string[] args)
        {
-           string processCatalog = Path.GetDirectoryName(Environment.ProcessPath);
-
+           ...
            _arguments = new ArgumentsCollection();
            ...
            _arguments.ProcessArguments(args);
