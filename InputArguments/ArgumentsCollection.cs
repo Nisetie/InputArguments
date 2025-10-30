@@ -56,7 +56,7 @@ namespace Tools.InputArguments
                 ShowHelp(0);
             else for (int i = 0; i < args.Length; ++i)
                 {
-                    var arg = args[i].ToLower();
+                    var arg = args[i];
 
                     var exactPar = FindParameter(arg);
                     if (exactPar == null)
